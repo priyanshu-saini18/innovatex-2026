@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InnovateX 2026 - E-Cell NSUT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. Hero Section with Live JS Countdown Timer -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>InnovateX 2026</h1>
+            <p>The Ultimate Innovation & Entrepreneurship Summit</p>
+            <div class="timer-container">
+                <div class="timer-box"><span id="days">00</span><p>Days</p></div>
+                <div class="timer-box"><span id="hours">00</span><p>Hours</p></div>
+                <div class="timer-box"><span id="minutes">00</span><p>Mins</p></div>
+                <div class="timer-box"><span id="seconds">00</span><p>Secs</p></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 2. About Overview -->
+    <section class="about">
+        <h2>About InnovateX</h2>
+        <p>InnovateX 2026 is the flagship fest portal brought to you by E-Cell NSUT. It serves as a dynamic launchpad for student entrepreneurs, innovators, and changemakers. Connect with top investors, attend masterclasses, and showcase your disruptive business models to the world.</p>
+    </section>
+
+    <!-- 3. Interactive Event Cards (with hover states) -->
+    <section class="events">
+        <h2>Featured Tracks & Events</h2>
+        <div class="card-grid">
+            <div class="card">
+                <h3>Pitch Perfect</h3>
+                <p>Present your startup idea to a panel of venture capitalists and win seed funding.</p>
+            </div>
+            <div class="card">
+                <h3>Hack-a-Thon</h3>
+                <p>A 24-hour intense building sprint to solve real-world industry problems.</p>
+            </div>
+            <div class="card">
+                <h3>Crypto Arena</h3>
+                <p>Explore Web3, blockchain applications, and the future of decentralized finance.</p>
+            </div>
+            <div class="card">
+                <h3>Case Study</h3>
+                <p>Crack complex business cases and devise growth strategies for top market brands.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Schedule Timeline -->
+    <section class="timeline-section">
+        <h2>Event Schedule</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-text"><strong>Day 1 - 09:00 AM:</strong> Opening Ceremony & Keynote Speech</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-text"><strong>Day 1 - 02:00 PM:</strong> Round 1 Ideation & Mentorship Sessions</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-text"><strong>Day 2 - 10:00 AM:</strong> Final Pitching in front of VCs</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-text"><strong>Day 2 - 04:00 PM:</strong> Award Distribution & Closing Remarks</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Gallery Grid (CSS Grid) -->
+    <section class="gallery-section">
+        <h2>Glimpses of InnovateX</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item item1"><p>Networking</p></div>
+            <div class="gallery-item item2"><p>Mentorship</p></div>
+            <div class="gallery-item item3"><p>Pitch Room</p></div>
+            <div class="gallery-item item4"><p>Trophy Ceremony</p></div>
+        </div>
+    </section>
+
+    <!-- 6. Registration Form with Vanilla JS Validation -->
+    <section class="registration">
+        <h2>Secure Your Spot</h2>
+        <form id="regForm" novalidate>
+            <div class="form-control">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" placeholder="Enter your full name">
+                <small class="error-msg"></small>
+            </div>
+            <div class="form-control">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="name@nsut.ac.in">
+                <small class="error-msg"></small>
+            </div>
+            <button type="submit">Register Now</button>
+        </form>
+    </section>
+
+    <!-- 7. Footer -->
+    <footer>
+        <p>&copy; 2026 E-Cell NSUT. Built with modularity for Technical Department Recruitments.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
